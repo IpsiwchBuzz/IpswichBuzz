@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IpswichBuzz - LocalBuzz Marketing</title>
+    <!-- SEO & Social Meta Tags -->
+    <meta name="description" content="IpswichBuzz empowers local businesses in Ipswich with multimedia marketing, professional video interviews, and local event promotion.">
+    <!-- You can add Open Graph and Twitter tags here for better social sharing -->
+    <!-- <meta property="og:title" content="IpswichBuzz - LocalBuzz Marketing"> -->
+    <!-- <meta property="og:description" content="IpswichBuzz empowers local businesses..."> -->
+    <!-- <meta property="og:image" content="https://www.canva.com/learn/hero-images/"> -->
+    
+    <!-- Use the Inter font for a modern and professional look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS for a beautiful, responsive design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a1a2e; /* Dark professional background */
+            color: #e0e0e0;
+        }
+        .hero-section {
+            background-color: #162447;
+            background-image: linear-gradient(to right, #1a1a2e, #162447);
+        }
+        .section-heading {
+            border-left: 4px solid #ffc107;
+            padding-left: 1rem;
+        }
+        .card {
+            background-color: #1f4068;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .portfolio-item {
+            background-color: #162447;
+            transition: transform 0.3s ease;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.03);
+        }
+        .glow-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 0 5px #ffc107;
+        }
+        .glow-button:hover {
+            box-shadow: 0 0 15px #ffc107, 0 0 30px #ffc107;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-[#1a1a2e]">
+
+    <!-- Header & Navigation -->
+    <header class="py-6 px-4 md:px-8">
+        <nav class="container mx-auto flex justify-between items-center">
+            <!-- Logo - You can replace this with your actual logo file -->
+            <a href="#" class="flex items-center space-x-2 text-xl font-bold text-white" aria-label="IpswichBuzz Home">
+                <!-- IMPORTANT: Place your logo file (e.g., 'logo.jpg' or 'logo.png') in the same directory as this HTML file on GitHub. -->
+                <img src="First logo ipswichbuzz.jpg" alt="IpswichBuzz logo showing a bee and microphone" class="h-8">
+                <span>IpswichBuzz</span>
+            </a>
+            <!-- Simple Navigation Links -->
+            <ul class="hidden md:flex space-x-6 text-sm">
+                <li><a href="#services" class="hover:text-yellow-400 transition-colors" aria-label="Our Services">Services</a></li>
+                <li><a href="#portfolio" class="hover:text-yellow-400 transition-colors" aria-label="Our Portfolio">Portfolio</a></li>
+                <li><a href="#events" class="hover:text-yellow-400 transition-colors" aria-label="Promote Your Event">Events</a></li>
+                <li><a href="#contact" class="hover:text-yellow-400 transition-colors" aria-label="Contact Us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section py-20 px-4 text-center">
+            <div class="container mx-auto">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">
+                    Empowering Local Businesses with a Powerful Voice.
+                </h1>
+                <p class="mt-4 md:mt-6 text-lg text-gray-300 max-w-2xl mx-auto">
+                    IpswichBuzz creates compelling multimedia content that tells your story and connects you with the community.
+                </p>
+                <a href="#contact" class="mt-8 inline-block bg-yellow-400 text-[#1a1a2e] font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-yellow-500 glow-button">
+                    Get Your Business Buzzing
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 px-4">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold section-heading text-white">Our Services</h2>
+                <p class="mt-4 text-gray-400 max-w-3xl">We offer tiered packages to suit your marketing needs, all focused on high-quality storytelling and powerful distribution.</p>
+
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Storyteller Package -->
+                    <div class="card p-8 rounded-2xl shadow-xl flex flex-col items-start">
+                        <h3 class="text-2xl font-bold text-white mb-2">Storyteller Package</h3>
+                        <p class="text-lg text-yellow-400 font-semibold mb-4">£750</p>
+                        <p class="text-gray-300">Our foundational package. A concise, powerful story to introduce your business to the community.</p>
+                        <ul class="mt-4 space-y-2 text-gray-400 list-disc list-inside">
+                            <li>1-2 Minute Video Interview</li>
+                            <li>Professional On-Location Filming</li>
+                            <li>Engaging, SEO-Optimized Article</li>
+                            <li>Content Posted on IpswichBuzz Platforms</li>
+                        </ul>
+                        <a href="#contact" class="mt-auto block w-full text-center bg-yellow-400 text-[#1a1a2e] font-semibold py-3 px-6 rounded-full hover:bg-yellow-500 transition-colors">
+                            Inquire Now
+                        </a>
+                    </div>
+                    <!-- Spotlight Package -->
+                    <div class="card p-8 rounded-2xl shadow-xl flex flex-col items-start">
+                        <h3 class="text-2xl font-bold text-white mb-2">Spotlight Package</h3>
+                        <p class="text-lg text-yellow-400 font-semibold mb-4">£1,500 - £2,500</p>
+                        <p class="text-gray-300">A deeper dive into your business, with enhanced content and boosted social media reach.</p>
+                        <ul class="mt-4 space-y-2 text-gray-400 list-disc list-inside">
+                            <li>Everything in Storyteller</li>
+                            <li>2-3 Minute Extended Video</li>
+                            <li>Additional B-Roll and Footage</li>
+                            <li>Targeted Social Media Ad Campaign</li>
+                        </ul>
+                        <a href="#contact" class="mt-auto block w-full text-center bg-yellow-400 text-[#1a1a2e] font-semibold py-3 px-6 rounded-full hover:bg-yellow-500 transition-colors">
+                            Learn More
+                        </a>
+                    </div>
+                    <!-- Partner Package -->
+                    <div class="card p-8 rounded-2xl shadow-xl flex flex-col items-start">
+                        <h3 class="text-2xl font-bold text-white mb-2">Partner Package</h3>
+                        <p class="text-lg text-yellow-400 font-semibold mb-4">£850 per month</p>
+                        <p class="text-gray-300">Become a long-term content partner with ongoing, strategic content creation for your brand.</p>
+                        <ul class="mt-4 space-y-2 text-gray-400 list-disc list-inside">
+                            <li>Custom Content Strategy</li>
+                            <li>Quarterly Video & Article Creation</li>
+                            <li>Ongoing Social Media Management</li>
+                            <li>Dedicated Account Manager</li>
+                        </ul>
+                        <a href="#contact" class="mt-auto block w-full text-center bg-yellow-400 text-[#1a1a2e] font-semibold py-3 px-6 rounded-full hover:bg-yellow-500 transition-colors">
+                            Become a Partner
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-20 px-4 bg-[#162447]">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold section-heading text-white">Our Portfolio</h2>
+                <p class="mt-4 text-gray-400 max-w-3xl">This is where we showcase the incredible stories we've told. Each project here represents a thriving local business.</p>
+                
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Portfolio Item 1 (Placeholder) -->
+                    <div class="portfolio-item rounded-2xl shadow-xl p-6">
+                        <div class="aspect-video bg-gray-600 rounded-lg overflow-hidden">
+                            <!-- Video Placeholder -->
+                            <img src="https://placehold.co/1280x720/1a1a2e/e0e0e0?text=Video+Placeholder" alt="Professional video interview for a local Ipswich business" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4 text-xl font-semibold text-white">Business Name Here</h3>
+                        <p class="text-gray-400 text-sm">Description of the project and the business's story.</p>
+                        <!-- REMINDER: Update with the actual link to the full article or video -->
+                        <a href="#" class="mt-4 inline-block text-yellow-400 hover:text-yellow-500 font-semibold transition-colors">Read the Full Article &rarr;</a>
+                    </div>
+                    <!-- Portfolio Item 2 (Placeholder) -->
+                    <div class="portfolio-item rounded-2xl shadow-xl p-6">
+                        <div class="aspect-video bg-gray-600 rounded-lg overflow-hidden">
+                            <!-- Video Placeholder -->
+                            <img src="https://placehold.co/1280x720/1a1a2e/e0e0e0?text=Video+Placeholder" alt="Professional video interview for a local Ipswich business" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4 text-xl font-semibold text-white">Another Business</h3>
+                        <p class="text-gray-400 text-sm">Description of the project and the business's story.</p>
+                        <!-- REMINDER: Update with the actual link to the full article or video -->
+                        <a href="#" class="mt-4 inline-block text-yellow-400 hover:text-yellow-500 font-semibold transition-colors">Read the Full Article &rarr;</a>
+                    </div>
+                    <!-- Portfolio Item 3 (Placeholder) -->
+                    <div class="portfolio-item rounded-2xl shadow-xl p-6">
+                        <div class="aspect-video bg-gray-600 rounded-lg overflow-hidden">
+                            <!-- Video Placeholder -->
+                            <img src="https://placehold.co/1280x720/1a1a2e/e0e0e0?text=Video+Placeholder" alt="Professional video interview for a local Ipswich business" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4 text-xl font-semibold text-white">Client Example</h3>
+                        <p class="text-gray-400 text-sm">Description of the project and the business's story.</p>
+                        <!-- REMINDER: Update with the actual link to the full article or video -->
+                        <a href="#" class="mt-4 inline-block text-yellow-400 hover:text-yellow-500 font-semibold transition-colors">Read the Full Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="py-20 px-4">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl font-bold section-heading text-white">Promote Your Event</h2>
+                <p class="mt-4 text-gray-400">Have an event you want to promote to the Ipswich community? We can help! Use the form below to submit your event details for a chance to be featured on our website and social media channels.</p>
+                
+                <!-- REMINDER: The form currently does not send data. Connect this to a backend service like Formspree or a custom API. -->
+                <form class="mt-8 space-y-6" action="#" method="POST">
+                    <div>
+                        <label for="event_business" class="block text-sm font-medium text-gray-300">Your Business Name</label>
+                        <input type="text" id="event_business" name="event_business" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="event_name" class="block text-sm font-medium text-gray-300">Event Name</label>
+                        <input type="text" id="event_name" name="event_name" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="event_date" class="block text-sm font-medium text-gray-300">Date & Time</label>
+                        <input type="text" id="event_date" name="event_date" placeholder="e.g., Saturday, October 26th, 7:00 PM" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="event_location" class="block text-sm font-medium text-gray-300">Location</label>
+                        <input type="text" id="event_location" name="event_location" placeholder="e.g., The Corn Exchange" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="event_description" class="block text-sm font-medium text-gray-300">Event Description</label>
+                        <textarea id="event_description" name="event_description" rows="4" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required></textarea>
+                    </div>
+                    <div>
+                        <label for="event_email" class="block text-sm font-medium text-gray-300">Contact Email</label>
+                        <input type="email" id="event_email" name="event_email" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="event_phone" class="block text-sm font-medium text-gray-300">Contact Number</label>
+                        <input type="tel" id="event_phone" name="event_phone" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm">
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-sm font-medium rounded-md text-[#1a1a2e] bg-yellow-400 hover:bg-yellow-500 glow-button transition-colors">
+                            Submit Event
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 px-4">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl font-bold section-heading text-white">Get in Touch</h2>
+                <p class="mt-4 text-gray-400">Ready to tell your story? Fill out the form below and we'll be in touch to discuss how IpswichBuzz can help your business connect with the community.</p>
+                
+                 <!-- REMINDER: The form currently does not send data. Connect this to a backend service like Formspree or a custom API. -->
+                <form class="mt-8 space-y-6" action="#" method="POST">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-300">Your Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="business" class="block text-sm font-medium text-gray-300">Business Name</label>
+                        <input type="text" id="business" name="business" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-300">Email Address</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-300">Tell Us About Your Business</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-600 bg-[#162447] text-white focus:ring-yellow-400 focus:border-yellow-400 shadow-sm" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-sm font-medium rounded-md text-[#1a1a2e] bg-yellow-400 hover:bg-yellow-500 glow-button transition-colors">
+                            Send Inquiry
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#10192e] py-8 px-4 text-center">
+        <div class="container mx-auto">
+            <p class="text-gray-400 text-sm">&copy; 2024 IpswichBuzz, a LocalBuzz Marketing Brand. All Rights Reserved.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <!-- REMINDER: Replace # with your actual social media URLs -->
+                <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">Facebook</a>
+                <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">Instagram</a>
+                <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
